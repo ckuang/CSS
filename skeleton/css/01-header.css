@@ -10,7 +10,7 @@
   border-style: solid;
   border-color: lightgray;
 
-  z-index 1000;
+  z-index: 1000;
 }
 
 .header a:hover {
