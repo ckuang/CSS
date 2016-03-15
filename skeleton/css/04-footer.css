@@ -1,1 +1,36 @@
 /* PHASE 4: Footer */
+.bottom {
+  width: 900px;
+  background: white;
+  color: darkgray;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  border: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.bottom-legal {
+  float: left;
+  padding: 20px 20px;
+}
+
+.bottom-list > li {
+  display: block;
+  float: left;
+}
+
+.bottom-list {
+  float: right;
+}
+
+.bottom-list > li > a {
+  margin: 20px 10px;
+}
+
+.bottom-list > li > a:hover {
+  color: black;
+}
