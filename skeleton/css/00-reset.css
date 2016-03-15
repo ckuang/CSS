@@ -30,6 +30,10 @@ img {
   height: auto;
 }
 
+a {
+  display: block;
+}
+
 input[type="password"],
 input[type="email"],
 input[type="text"],
