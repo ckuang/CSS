@@ -1,0 +1,57 @@
+/* PHASE 1: Header */
+
+.header {
+  background: red;
+  color: white;
+  font-family: sans-serif;
+
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.header a:hover {
+  background: black;
+}
+
+.header-nav {
+  background: red;
+  margin: auto;
+  width: 900px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+
+.header-logo {
+  float: left;
+  background: red;
+}
+
+.header-logo a {
+  display: block;
+  padding: 10px 20px;
+  border-right: 1px;
+  border-color: lightgray;
+  border-style: solid;
+  font-weight: 700;
+}
+
+.header-list {
+  float: right;
+  background: red;
+}
+
+.header-list > li {
+  float :left;
+}
+
+.header-list > li > a {
+  display: block;
+  padding: 10px 20px;
+  border-left: 1px;
+  border-color: lightgray;
+  border-style: solid;
+}

@@ -1,0 +1,15 @@
+/* PHASE 2: Notifications */
+.header-list {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+
+  left: -1px;
+
+  width: 0;
+  border-radius: 100px;
+  background: black;
+  border-left: 0;
+}
